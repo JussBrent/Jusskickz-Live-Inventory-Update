@@ -28,7 +28,7 @@ jobs:
       - name: Run tests
         run: npm test --if-present
 
-      # OPTIONAL — for Firebase deploy (once you’re ready)
+      # for Firebase deploy 
       - name: Deploy to Firebase Hosting
         if: github.ref == 'refs/heads/main'
         uses: FirebaseExtended/action-hosting-deploy@v0
